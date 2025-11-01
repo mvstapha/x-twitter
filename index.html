@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twitter/X Layout</title>
+
+  <!-- Font Awesome for X logo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left-side">
+      <div class="leftside-first">
+        <div class="left-menu">
+          <i class="fa-brands fa-x-twitter" id="x"></i>
+          <a href="#" class="menu-item"><i class="bi bi-house-fill"></i> <span>Home</span></a>
+          <a href="#" class="menu-item"><i class="bi bi-compass-fill"></i> <span>Explore</span></a>
+          <a href="#" class="menu-item"><i class="bi bi-bell-fill"></i> <span>Notifications</span></a>
+          <a href="#" class="menu-item"><i class="bi bi-envelope-fill"></i> <span>Messages</span></a>
+          <a href="#" class="menu-item"><i class="bi bi-people-fill"></i> <span>Communities</span></a>
+          <a href="#" class="menu-item"><i class="bi bi-person-fill"></i> <span>Profile</span></a>
+          <a href="#" class="menu-item"><i class="bi bi-three-dots"></i> <span>More</span></a>
+          <button class="Post">Post</button>
+        </div>
+      </div>
+
+      <div class="leftside-second">
+        <div class="leftside-second-first">
+          <i class="bi bi-person-fill prfl"></i>
+          <p>@Username</p>
+        </div>
+        <div class="leftside-second-second">
+          <i style="cursor: pointer;" class="bi bi-three-dots"></i>
+        </div>
+      </div>
+    </div> <!-- ✅ closes .left-side -->
+
+    <!-- MIDDLE SIDE -->
+    <div class="middle-side">
+      <div class="middle-side-first">
+        <p class="foryou">For You</p>
+        <p>Following</p>
+      </div>
+      <div class="middle-side-second">
+        <div class="middle-side-second-left">
+          <i class="bi bi-person prfl"></i>
+          <input placeholder="What is happening?" type="text">
+        </div>
+        <button class="NewPost">Post</button>
+      </div>
+      <div class="middle-side-third">
+        <div class="user-post">
+          <img class="crisIMG" src="/1OUP8RgK_400x400.jpg" alt="">
+          <p>Cristiano Ronaldo <i class="bi bi-patch-check-fill" style="color: #1DA1F2;"></i></p>
+          <i></i>
+          <p style="color: rgba(0, 0, 0, 0.575);">@Cristiano</p>
+          <p style="color: rgba(0, 0, 0, 0.575);" >- 19h</p>
+        </div>
+        <div class="post-itself">
+          <p>👀</p>
+          <img class="crisPOST" src="/G4hLvNRWgAAfyMv.jpg" alt="">
+          <div class="post-icons">
+            <i class="bi bi-chat underposticons"> 123M</i>
+            <i style="color: #1DA1F2 !important;" class="bi bi-heart-fill underposticons"> 45.2k</i>
+            <i class="bi bi-repeat underposticons"> 1.23k</i>
+            <i class="bi bi-upload underposticons"> 598</i>
+        </div>
+        </div>
+
+        <div class="user-post">
+          <img class="crisIMG" src="/2SGvnHYV_400x400.jpg" alt="">
+          <p>Barack Obama <i class="bi bi-patch-check-fill" style="color: #1DA1F2;"></i></p>
+          <i></i>
+          <p style="color: rgba(0, 0, 0, 0.575);">@BarackObama</p>
+          <p style="color: rgba(0, 0, 0, 0.575);" >- 23h</p>
+        </div>
+        <div class="post-itself">
+          <p>More than 47 million Americans — including one in five children — don’t have reliable, affordable access to nutritious food. And as the cost of living skyrockets, more families are depending on SNAP benefits, or food stamps, to put food on the table.</p>
+        <!---<img class="crisPOST" src="/G4hLvNRWgAAfyMv.jpg" alt="">---> 
+          <div class="post-icons">
+            <i class="bi bi-chat underposticons"> 9.6M</i>
+            <i style="color: #1DA1F2 !important;" class="bi bi-heart-fill underposticons"> 23.6k</i>
+            <i class="bi bi-repeat underposticons"> 5.98k</i>
+            <i class="bi bi-upload underposticons"> 976</i>
+        </div>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right-side">
+      <div class="firstpart">
+        <input class="right-side-search" placeholder="Search" type="text">
+      </div>
+      <div class="secondpart">
+        <p class="subscribePremium">Subscribe to Premium</p>
+        <p class="PremiumParagraph">Subscribe to unlock new features and if eligible, receive a share of revenue.</p>
+        <button class="SubscribeButton">Subscribe</button>
+      </div>
+      <div class="thirdpart">
+        <p class="whathappening">What's happening</p>
+        <div class="trendinghashtag">
+          <div class="hashtagleftside">
+            <p class="trendlocation">Trending in Morocco</p>
+            <p class="trenditself">Cyber Data Breach</p>
+          </div>
+          <div class="hashtagrightside">
+            <i style="cursor: pointer;" class="bi bi-three-dots"></i>
+          </div>
+        </div>
+        <hr style="border: none; border-top: 1px solid rgba(0, 0, 0, 0.164); width: 100%;">
+
+        <div class="trendinghashtag">
+          <div class="hashtagleftside">
+            <p class="trendlocation">Trending in Russia</p>
+            <p class="trenditself">Ukraine - Russia Ceasfire</p>
+          </div>
+          <div class="hashtagrightside">
+            <i style="cursor: pointer;" class="bi bi-three-dots"></i>
+          </div>
+        </div>
+        <hr style="border: none; border-top: 1px solid rgba(0, 0, 0, 0.164); width: 100%;">
+
+        <div class="trendinghashtag">
+          <div class="hashtagleftside">
+            <p class="trendlocation">Trending in Morocco</p>
+            <p class="trenditself">Cyber Data Breach</p>
+          </div>
+          <div class="hashtagrightside">
+            <i style="cursor: pointer;" class="bi bi-three-dots"></i>
+          </div>
+        </div>
+        <hr style="border: none; border-top: 1px solid rgba(0, 0, 0, 0.164); width: 100%;">
+        
+      </div>
+      <div class="fourthpart">
+        <a href="" class="links">Terms of Service</a>
+        <a href="" class="links">Privacy Policy</a>
+        <a href="" class="links">Cookie Policy</a>
+        <a href="" class="links">Accessibility</a>
+        <a href="" class="links">Ads info</a>
+        <a href="" class="links">More...</a>
+        <a href="" class="links">© 2025 X Corp.</a>
+      </div>
+    </div>
+  </div> <!-- ✅ closes .container -->
+</body>
+</html>
